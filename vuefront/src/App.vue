@@ -5,7 +5,9 @@
       color="blue-grey darken-3"
       dark
     >
-      <v-app-bar-nav-icon @click="$store.state.showNav = !$store.state.showNav"></v-app-bar-nav-icon>
+      <v-app-bar-nav-icon 
+      @click="$store.state.showNav = !$store.state.showNav">
+      </v-app-bar-nav-icon>
     </v-app-bar>
     <nav-drawer />
     <v-main>
