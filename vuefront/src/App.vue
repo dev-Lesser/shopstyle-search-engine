@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import Main from './components/Main';
-import NavDrawer from './components/NavDrawer';
+import Main from '@/components/Main';
+import NavDrawer from '@/components/NavDrawer';
 
 export default {
   name: 'App',
