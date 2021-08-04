@@ -8,6 +8,4 @@ export default new Vuex.Store({
     showNav: true,
     items: null
   },
-
-
 });
