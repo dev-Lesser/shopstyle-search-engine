@@ -18,7 +18,6 @@
                         </v-btn>
                     </div>
                 </v-list-item-subtitle>
-                
             </v-list-item-content>
             
         </v-list-item>
