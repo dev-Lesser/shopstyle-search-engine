@@ -34,7 +34,7 @@ def get_items_from_api(category: str, sid: int, eid: int):
     params = {
         "includeProducts": "true",
         "limit" : eid-sid,
-        "pid": "shopstyle", # pid 필수
+        "pid": "OWN PID", # pid 필수
         "offset": sid,
         "cat": category
     }
